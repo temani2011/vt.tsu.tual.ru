@@ -1,0 +1,16 @@
+					<table>
+						<tr><?php echo Schedule::days()[$day - 1];?></tr>
+						<?php foreach($schedule as $pair) { if($pair['day']==$day) { ?>
+						<tr>
+							<td>
+								<?php echo Schedule::pair_time($pair["pair"]);
+								if ($pair['week'] == 'odd') echo ' (í/í)';
+								else if($pair['week'] == 'even') echo ' (÷/í)';
+								?>	
+							</td>
+							<td><?php echo '<b>'.$pair['short_name'].'</b><br> <small>'.$pair['corps'].'-'.$pair['auditory'].'</small>'; ?></td>
+							<td><?php echo $pair['group_number']; ?></td>
+							<td></td>
+						</tr>
+					<?php } } ?>
+					</table>

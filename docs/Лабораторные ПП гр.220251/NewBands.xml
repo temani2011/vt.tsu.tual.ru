@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<xml   ID="bandList">
+<Bands>
+  <Band>
+    <Name>Beatles</Name>
+    <NumberOfMembers>4</NumberOfMembers>
+    <HomeTown>Liverpool England</HomeTown>
+    <CDList>
+      <CD>
+        <Name>Yellow Submarine</Name>
+      </CD>
+    </CDList>
+  </Band>
+  <Band>
+    <Name>Citizen King</Name>
+    <NumberOfMembers>5</NumberOfMembers>
+    <HomeTown>Milwaukee, WI</HomeTown>
+    <CDList>
+      <CD>
+         <Name>Brown Paper Bag</Name>
+      </CD>
+      <CD>
+        <Name>Better Days</Name>
+      </CD>
+    </CDList>
+  </Band>
+</Bands></xml>

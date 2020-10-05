@@ -1,0 +1,35 @@
+#sidebar {
+    min-width: 230px;
+    max-width: 230px;
+    min-height: 100%;
+    transition: all 0.3s;
+}
+.sidebar-dark ul li a {
+    color: rgba(255,255,255,.75);
+}
+
+.sidebar ul li a{
+    display: block;
+    padding: .75rem 1rem;
+    text-decoration: none;
+}
+#sidebar.toggle {
+    margin-left: -230px;
+    margin-right: 115px;
+}
+
+.sidebar-dark ul li a:hover,.sidebar-dark ul .active a
+{
+    color:rgba(255,255,255,1);
+    background:rgba(0,0,0,.15)
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -230px;
+    }
+    #sidebar.toggle {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
